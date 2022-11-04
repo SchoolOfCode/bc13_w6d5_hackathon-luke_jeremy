@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon -r dotenv/config server.js",
+    "dev": "nodemon -r dotenv/config server.js --watchAll",
     "db-reset": "node -r dotenv/config db/scripts/reset-all-tables.js"
   },
   "devDependencies": {
